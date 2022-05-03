@@ -9,12 +9,67 @@ import { Component, OnInit,Input } from '@angular/core';
 
 })
 export class QueryCardComponent implements OnInit {
-  @Input() QueryTitle: string="HTML and CSS";
-  @Input() QueryContent: string="How to use Html and css together to make the website responsive with the bootstrap?";
+  
+  totalLength: any;
+  page: number = 1;
+
+
   constructor() { }
   ngOnInit(): void {
+   this.totalLength=this.data.length
   }
- 
+
+  
+  public data = [    
+    {
+    QueryTitle:"HTML and CSS",
+    QueryContent:"How to use Html and css together to make the website responsive with the bootstrap?"
+  },
+  {
+    QueryTitle:"HTML and CSS",
+    QueryContent:"How to use Html and css together to make the website responsive with the bootstrap?"
+  },
+  {
+    QueryTitle:"HTML and CSS",
+    QueryContent:"How to use Html and css together to make the website responsive with the bootstrap?"
+  },
+  {
+    QueryTitle:"HTML and CSS",
+    QueryContent:"How to use Html and css together to make the website responsive with the bootstrap?"
+  },
+  {
+    QueryTitle:"HTML and CSS",
+    QueryContent:"How to use Html and css together to make the website responsive with the bootstrap?"
+  },
+  {
+    QueryTitle:"HTML and CSS",
+    QueryContent:"How to use Html and css together to make the website responsive with the bootstrap?"
+  }, {
+    QueryTitle:"HTML and CSS",
+    QueryContent:"How to use Html and css together to make the website responsive with the bootstrap?"
+  },
+  {
+    QueryTitle:"HTML and CSS",
+    QueryContent:"How to use Html and css together to make the website responsive with the bootstrap?"
+  },
+  {
+    QueryTitle:"HTML and CSS",
+    QueryContent:"How to use Html and css together to make the website responsive with the bootstrap?"
+  },
+  {
+    QueryTitle:"HTML and CSS",
+    QueryContent:"How to use Html and css together to make the website responsive with the bootstrap?"
+  },
+  {
+    QueryTitle:"HTML and CSS",
+    QueryContent:"How to use Html and css together to make the website responsive with the bootstrap?"
+  },
+  {
+    QueryTitle:"HTML and CSS",
+    QueryContent:"How to Html and css together to make the website responsive with the bootstrap?"
+  },];
+  
+
 
 }
 

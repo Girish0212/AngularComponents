@@ -11,6 +11,7 @@ import { DataTablesModule } from 'angular-datatables';
 import { HttpClientModule } from '@angular/common/http';
 import {MatTableModule} from '@angular/material/table';
 import { QueryFilterComponent } from './query-filter/query-filter.component';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { QueryFilterComponent } from './query-filter/query-filter.component';
     AppRoutingModule,
     DataTablesModule,
     HttpClientModule,
-    MatTableModule
+    MatTableModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
