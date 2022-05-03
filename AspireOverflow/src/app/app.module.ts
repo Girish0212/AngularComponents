@@ -10,6 +10,7 @@ import { ArticleCardComponent } from './article-card/article-card.component';
 import { DataTablesModule } from 'angular-datatables';
 import { HttpClientModule } from '@angular/common/http';
 import {MatTableModule} from '@angular/material/table';
+import { QueryFilterComponent } from './query-filter/query-filter.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import {MatTableModule} from '@angular/material/table';
     QueryCardComponent,
     ButtonComponent,
     ArticleCardComponent,
+    QueryFilterComponent,
     
    
   ],
